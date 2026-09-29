@@ -24,6 +24,37 @@ advice service.
 The conversational AI chatbot is **coming soon** in this PROD demo. AI-generated
 insights are informational and should be checked against your own records.
 
+## Languages & Technologies
+
+### Programming & Platform Languages
+
+The maintained application source was inspected directly. Generated files,
+build outputs, caches, and tests were excluded from this inventory.
+
+| Language | Verified use |
+| --- | --- |
+| Dart | Main Flutter application code in 56 maintained `lib/` files (approximately 996 KB). |
+| Kotlin | Android platform activity and native integration (1 maintained file, approximately 15 KB). |
+| Swift | iOS and macOS platform entry points (3 maintained files, approximately 1 KB). |
+| C++ | Windows and Linux desktop runner code, including native headers (10 maintained files, approximately 24 KB). |
+
+### Build & Configuration
+
+| Technology / format | Verified use |
+| --- | --- |
+| Flutter | Cross-platform application framework and asset/build integration. |
+| Gradle Kotlin DSL (`.kts`) | Android build, flavors, dependencies, and release configuration. |
+| CMake | Windows and Linux desktop runner build configuration. |
+| YAML | Dart/Flutter package manifest and project configuration. |
+| XML | Android manifests and Android resources. |
+| JSON | Firebase client configuration, web metadata, and application data fixtures. |
+| Property lists (`.plist`) | Apple platform application metadata and configuration. |
+| Properties files | Android/Gradle local and project settings. |
+
+The inventory reports file counts and approximate source size only; no
+cross-language percentage is presented because platform wrappers and native
+header/source files are not directly comparable.
+
 ## Development status
 
 | Status | Details |
@@ -41,7 +72,20 @@ Verify the APK against the SHA-256 checksum in
 
 ## Screenshots
 
-No product screenshots are included in this release yet.
+### Login
+
+![Pastel Pockets login](screenshot/login.jpg)
+
+### Smart Receipt OCR
+
+![Pastel Pockets Smart Receipt OCR coming soon](screenshot/scan_ocr_coming_soon.jpg)
+
+### Settings
+
+![Pastel Pockets settings](screenshot/settings.jpg)
+
+Screenshots showing personal/demo balances, transactions, participant names, or
+other financial details are intentionally not referenced.
 
 ## Technology
 
