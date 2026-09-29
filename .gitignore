@@ -1,0 +1,24 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p12
+*.pfx
+**/keystore.properties
+**/key.properties
+*service-account*.json
+*serviceAccountKey*.json
+secrets*.json
+credentials*.json
+
+# Release binaries are distributed through GitHub Releases, not the source branch
+*.apk
+*.aab
+
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
