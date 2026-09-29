@@ -84,20 +84,118 @@ application appears and behaves without exposing real financial information.
 These values must not be interpreted as actual financial records, balances,
 transactions, or financial advice.
 
-### Login
+### Authentication
+
+#### Login
 
 ![Pastel Pockets login](screenshot/login.jpg)
 
-### Smart Receipt OCR
+Choose Google sign-in or continue in Guest mode from the welcome screen.
 
-![Pastel Pockets Smart Receipt OCR coming soon](screenshot/scan_ocr_coming_soon.jpg)
+#### Biometric unlock
+
+![Pastel Pockets biometric unlock](screenshot/biometric.jpg)
+
+The unlock screen offers a biometric prompt for a returning session.
+
+### Dashboard and wallets
+
+#### Dashboard overview
+
+![Pastel Pockets dashboard overview](screenshot/dashboard.jpg)
+
+The dashboard brings together the displayed balance, monthly cash flow, quick
+actions, and navigation to key areas.
+
+#### Wallets and dashboard insights
+
+![Pastel Pockets wallets and dashboard insights](screenshot/dashboard_scroll_mid.jpg)
+
+This dashboard view shows wallet cards, an AI insight, budget progress, and the
+start of recent activity.
+
+#### Budget progress and recent activity
+
+![Pastel Pockets dashboard activity](screenshot/dashboard_scroll_end.jpg)
+
+The lower dashboard view focuses on budget progress and a list of recent
+transactions.
+
+### Transactions, budgets, and savings
+
+#### Transactions
+
+![Pastel Pockets transactions](screenshot/trasaction.jpg)
+
+Search, income/expense filters, category filters, and transaction entries are
+visible on this screen.
+
+#### Budgets
+
+![Pastel Pockets budgets](screenshot/budget_limit.jpg)
+
+Budget cards show category spending, progress against limits, and remaining
+amounts.
+
+#### Saving goals
+
+![Pastel Pockets saving goals](screenshot/saving_goals.jpg)
+
+A saving goal card displays its target, progress, remaining amount, and an
+action to add savings.
+
+### Reports
+
+#### Cash flow report
+
+![Pastel Pockets cash flow report](screenshot/reports.jpg)
+
+The report summarizes net cash flow, income, expenses, and a period-based trend
+chart.
+
+#### Expense categories
+
+![Pastel Pockets expense categories](screenshot/reports_expense.jpg)
+
+This scrolled report view shows the cash-flow trend alongside a category
+breakdown of expenses.
+
+### Financial tools
+
+#### AI financial insights
+
+![Pastel Pockets AI financial insights](screenshot/ai_insight.jpg)
+
+The insights screen presents a forecast summary, selectable time horizons, and
+a projected-balance chart.
+
+#### Split Bill: items and charges
+
+![Pastel Pockets Split Bill items and charges](screenshot/split_bill_biaya.jpg)
+
+This captured workflow preview shows receipt items, item entry controls, and
+tax and service-charge fields; Split Bill is not an available feature in this
+PROD demo.
 
 ### Settings
 
+#### General settings
+
 ![Pastel Pockets settings](screenshot/settings.jpg)
 
-Screenshots showing personal/demo balances, transactions, participant names, or
-other financial details are intentionally not referenced.
+Settings include appearance, biometric login, notifications, CSV import/export,
+language, and currency options.
+
+### Development progress
+
+#### Smart Receipt OCR
+
+![Pastel Pockets Smart Receipt OCR coming soon](screenshot/scan_ocr_coming_soon.jpg)
+
+The screen presents receipt OCR as a coming-soon feature in this PROD demo.
+
+Screenshots showing unverified personal identifiers are intentionally not
+included.
 
 ## Technology
 
