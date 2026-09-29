@@ -24,36 +24,64 @@ advice service.
 The conversational AI chatbot is **coming soon** in this PROD demo. AI-generated
 insights are informational and should be checked against your own records.
 
-## Languages & Technologies
+## Technology Stack
 
-### Programming & Platform Languages
+The Android PROD APK and application paths were inspected separately from the
+wider development and machine-learning workspace. Bundled dependencies do not
+by themselves prove that a related external service is available.
 
-The maintained application source was inspected directly. Generated files,
-build outputs, caches, and tests were excluded from this inventory.
+| Technology | Role | PROD Status | Current Development |
+| --- | --- | --- | --- |
+| Flutter and Dart | Android app UI, navigation, and financial calculations | Production runtime | Core app runtime; financial reports and projections are computed in Dart. |
+| Kotlin | Android Flutter host and platform integration | Production platform integration | Supporting integration; no separate optimization claim. |
+| Firebase Authentication and Cloud Firestore | Google sign-in, account profile, and cloud synchronization | Production integration | Identity, session, and synchronization reliability are covered by targeted tests. |
+| Isar | Local application database | Production | Local data scoping and cloud-sync durability are covered by tests. |
+| Google Sign-In and `local_auth` | Account sign-in and biometric unlock | Production platform integrations | Supporting authentication integrations. |
+| Google ML Kit Text Recognition | Receipt text recognition | Bundled integration; Smart Receipt OCR is marked coming soon in this PROD demo | Receipt parsing and extraction quality are evaluated in development; the OCR route is gated in this release. |
+| Riverpod, `go_router`, and `fl_chart` | State management, app navigation, and report charts | Supporting production runtime | Supporting app architecture and presentation. |
+| Agentic AI API client | Sends verified financial context for an optional AI-generated narrative; the app also has a local Dart fallback | Client path is present; a live PROD endpoint and serving model were not verified, and the endpoint is unset by default | Grounding, structured-response validation, fallback behavior, and AI evaluation are covered by development tests. |
 
-| Language | Verified use |
+### Programming Languages
+
+| Language | Role in the project | Evidence status |
+| --- | --- | --- |
+| Dart | Core Flutter mobile application and on-device financial logic | Android PROD runtime verified in the inspected APK. |
+| Kotlin | Android host activity and platform channel integration | Production platform integration verified in the inspected APK. |
+| Java | Generated Android plugin-registration glue | Supporting integration included in the inspected APK; not app business logic. |
+| Python | Separate Streamlit analytics/ML application, model-training experiments, and offline evaluation tools | Engineering/research use only; not part of the Flutter mobile runtime. |
+| Swift | iOS runner entry point | iOS source exists, but no iOS production archive or device runtime was verified; this release is Android-only. |
+| Objective-C | Generated iOS plugin-registration glue | iOS source only; no iOS production archive or device runtime was verified. |
+
+C/C++ runner source in the wider project targets desktop platforms and is not
+claimed as part of the Android mobile runtime. Native libraries supplied by
+Flutter or its plugins are not evidence of project-authored C/C++ app logic.
+
+### AI & Machine Learning
+
+Financial aggregation and deterministic balance projections in the mobile app
+run in Dart. The AI Insights screen can send verified facts through an external
+API client for a narrative and uses a local, verified fallback; the inspected
+PROD configuration does not establish a live AI service or model. No Python
+interpreter or Qwen model weights were found in the inspected APK.
+
+Python is used separately in the project's Streamlit analytics/ML application,
+ML training and evaluation work, and offline OCR benchmarking. QLoRA belongs to
+model experimentation/training, not mobile inference. Qwen/Ollama work in that
+separate environment should not be mistaken for an embedded mobile model or a
+verified PROD AI backend.
+
+### Current Development & Optimization
+
+| Area | Current focus |
 | --- | --- |
-| Dart | Main Flutter application code in 56 maintained `lib/` files (approximately 996 KB). |
-| Kotlin | Android platform activity and native integration (1 maintained file, approximately 15 KB). |
-| Swift | iOS and macOS platform entry points (3 maintained files, approximately 1 KB). |
-| C++ | Windows and Linux desktop runner code, including native headers (10 maintained files, approximately 24 KB). |
+| AI insights | Evaluating grounded financial facts, structured responses, validation, and deterministic fallback behavior. |
+| Data and synchronization | Testing identity-scoped data handling and durable synchronization behavior. |
+| Authentication | Testing Google initialization, session handling, and biometric access policies. |
+| Receipt extraction | Evaluating capture quality, structured parsing, and extraction accuracy; the PROD OCR route remains marked coming soon. |
 
-### Build & Configuration
-
-| Technology / format | Verified use |
-| --- | --- |
-| Flutter | Cross-platform application framework and asset/build integration. |
-| Gradle Kotlin DSL (`.kts`) | Android build, flavors, dependencies, and release configuration. |
-| CMake | Windows and Linux desktop runner build configuration. |
-| YAML | Dart/Flutter package manifest and project configuration. |
-| XML | Android manifests and Android resources. |
-| JSON | Firebase client configuration, web metadata, and application data fixtures. |
-| Property lists (`.plist`) | Apple platform application metadata and configuration. |
-| Properties files | Android/Gradle local and project settings. |
-
-The inventory reports file counts and approximate source size only; no
-cross-language percentage is presented because platform wrappers and native
-header/source files are not directly comparable.
+These items describe engineering and evaluation work in the project, not a
+claim that an external AI service is deployed or that gated features are
+available in this release.
 
 ## Development status
 
@@ -223,11 +251,6 @@ language, and currency options.
 <img src="screenshot/scan_ocr_coming_soon.jpg" alt="Pastel Pockets Smart Receipt OCR coming soon" width="320">
 
 The screen presents receipt OCR as a coming-soon feature in this PROD demo.
-
-## Technology
-
-Pastel Pockets is built with Flutter and Dart and uses Firebase services for
-account-related functionality.
 
 ## Known limitations
 
