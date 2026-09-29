@@ -72,6 +72,18 @@ Verify the APK against the SHA-256 checksum in
 
 ## Screenshots
 
+### Demo financial data
+
+Financial balances, amounts, transactions, and other financial values visible
+in these screenshots are fictional demonstration data created specifically for
+this project. They do not represent real personal financial information. The
+data is intentionally controlled and constructed to show the application's
+financial workflows and progress in a realistic scenario, allowing prospective
+users, reviewers, developers, and other viewers to understand how the
+application appears and behaves without exposing real financial information.
+These values must not be interpreted as actual financial records, balances,
+transactions, or financial advice.
+
 ### Login
 
 ![Pastel Pockets login](screenshot/login.jpg)
