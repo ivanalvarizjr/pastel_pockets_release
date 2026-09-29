@@ -1,6 +1,6 @@
-# Pastel Pockets
+# 💰 Pastel Pockets
 
-### AI-Powered Personal Finance Consultant
+### 🤖 AI-Powered Personal Finance Consultant
 
 Pastel Pockets helps you keep everyday finances organized with a clear view of
 transactions, wallets, budgets, savings goals, and spending reports. This
@@ -11,7 +11,7 @@ advice service.
 **Platform:** Android
 **Android application ID:** `com.pastel.wallet`
 
-## What you can try
+## 🧭 What you can try
 
 - Review income, expenses, balances, and spending reports.
 - Record and organize transactions, then search or filter transaction history.
@@ -24,7 +24,7 @@ advice service.
 The conversational AI chatbot is **coming soon** in this PROD demo. AI-generated
 insights are informational and should be checked against your own records.
 
-## Technology Stack
+## 🛠️ Technology Stack
 
 The Android PROD APK and application paths were inspected separately from the
 wider development and machine-learning workspace. Bundled dependencies do not
@@ -41,7 +41,7 @@ by themselves prove that a related external service is available.
 | Riverpod, `go_router`, and `fl_chart` | State management, app navigation, and report charts | Supporting production runtime | Supporting app architecture and presentation. |
 | Agentic AI API client | Sends verified financial context for an optional AI-generated narrative; the app also has a local Dart fallback | Client path is present; a live PROD endpoint and serving model were not verified, and the endpoint is unset by default | Grounding, structured-response validation, fallback behavior, and AI evaluation are covered by development tests. |
 
-### Programming Languages
+### 💻 Programming Languages
 
 | Language | Role in the project | Evidence status |
 | --- | --- | --- |
@@ -56,7 +56,7 @@ C/C++ runner source in the wider project targets desktop platforms and is not
 claimed as part of the Android mobile runtime. Native libraries supplied by
 Flutter or its plugins are not evidence of project-authored C/C++ app logic.
 
-### AI & Machine Learning
+### 🤖 AI & Machine Learning
 
 Financial aggregation and deterministic balance projections in the mobile app
 run in Dart. The AI Insights screen can send verified facts through an external
@@ -70,7 +70,7 @@ model experimentation/training, not mobile inference. Qwen/Ollama work in that
 separate environment should not be mistaken for an embedded mobile model or a
 verified PROD AI backend.
 
-### Current Development & Optimization
+### 🔬 Current Development & Optimization
 
 | Area | Current focus |
 | --- | --- |
@@ -83,7 +83,7 @@ These items describe engineering and evaluation work in the project, not a
 claim that an external AI service is deployed or that gated features are
 available in this release.
 
-## Development status
+## 🚧 Development status
 
 | Status | Details |
 | --- | --- |
@@ -91,14 +91,14 @@ available in this release.
 | In development | Receipt scanning/OCR and conversational AI are marked as coming soon in the PROD app. Split Bill is not included as an available PROD demo feature. |
 | Planned | Further improvements will be guided by demo feedback. No additional feature dates are promised. |
 
-## Download
+## 📥 Download
 
 Download the Android pre-release APK from the
 [Pastel Pockets v0.1.0 GitHub Release](https://github.com/ivanalvarizjr/pastel_pockets_release/releases/tag/v0.1.0).
 Verify the APK against the SHA-256 checksum in
 [`checksums/SHA256SUMS.txt`](checksums/SHA256SUMS.txt).
 
-## Screenshots
+## 🖼️ Screenshots
 
 ### Demo financial data
 
@@ -114,7 +114,7 @@ transactions, or financial advice. Names and initials shown in the Split Bill
 screenshots are the developer's own demo name or fictional initials, not
 another person's private identity.
 
-### Authentication
+### 🔐 Authentication
 
 #### Login
 
@@ -128,7 +128,7 @@ Choose Google sign-in or continue in Guest mode from the welcome screen.
 
 The unlock screen offers a biometric prompt for a returning session.
 
-### Dashboard and wallets
+### 📊 Dashboard and wallets
 
 #### Dashboard overview
 
@@ -151,7 +151,7 @@ start of recent activity.
 The lower dashboard view focuses on budget progress and a list of recent
 transactions.
 
-### Transactions, budgets, and savings
+### 💳 Transactions, budgets, and savings
 
 #### Transactions
 
@@ -174,7 +174,7 @@ amounts.
 A saving goal card displays its target, progress, remaining amount, and an
 action to add savings.
 
-### Reports
+### 📈 Reports
 
 #### Cash flow report
 
@@ -190,7 +190,7 @@ chart.
 This scrolled report view shows the cash-flow trend alongside a category
 breakdown of expenses.
 
-### Financial tools
+### 🧰 Financial tools
 
 #### AI financial insights
 
@@ -235,7 +235,7 @@ resulting totals.
 The sharing view shows prepared participant summaries with copy and share
 actions.
 
-### Settings
+### ⚙️ Settings
 
 #### General settings
 
@@ -244,7 +244,7 @@ actions.
 Settings include appearance, biometric login, notifications, CSV import/export,
 language, and currency options.
 
-### Development progress
+### 🚀 Development progress
 
 #### Smart Receipt OCR
 
@@ -252,7 +252,7 @@ language, and currency options.
 
 The screen presents receipt OCR as a coming-soon feature in this PROD demo.
 
-## Known limitations
+## ⚠️ Known limitations
 
 - This is a pre-release demo and may change; back up important records.
 - Android is the only platform provided by this release.
@@ -262,12 +262,12 @@ The screen presents receipt OCR as a coming-soon feature in this PROD demo.
   substitute for qualified financial advice. Review all entries and decisions
   yourself.
 
-## Project names
+## 📛 Project names
 
 **Pastel Wallet** is the development/source project. **Pastel Pockets** is the
 public Android application.
 
-## Disclaimer
+## ⚖️ Disclaimer
 
 Pastel Pockets is provided for demonstration and personal organization only.
 Financial insights are not a recommendation to buy, sell, borrow, invest, or
