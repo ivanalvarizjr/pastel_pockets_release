@@ -82,19 +82,21 @@ financial workflows and progress in a realistic scenario, allowing prospective
 users, reviewers, developers, and other viewers to understand how the
 application appears and behaves without exposing real financial information.
 These values must not be interpreted as actual financial records, balances,
-transactions, or financial advice.
+transactions, or financial advice. Names and initials shown in the Split Bill
+screenshots are the developer's own demo name or fictional initials, not
+another person's private identity.
 
 ### Authentication
 
 #### Login
 
-![Pastel Pockets login](screenshot/login.jpg)
+<img src="screenshot/login.jpg" alt="Pastel Pockets login" width="320">
 
 Choose Google sign-in or continue in Guest mode from the welcome screen.
 
 #### Biometric unlock
 
-![Pastel Pockets biometric unlock](screenshot/biometric.jpg)
+<img src="screenshot/biometric.jpg" alt="Pastel Pockets biometric unlock" width="320">
 
 The unlock screen offers a biometric prompt for a returning session.
 
@@ -102,21 +104,21 @@ The unlock screen offers a biometric prompt for a returning session.
 
 #### Dashboard overview
 
-![Pastel Pockets dashboard overview](screenshot/dashboard.jpg)
+<img src="screenshot/dashboard.jpg" alt="Pastel Pockets dashboard overview" width="320">
 
 The dashboard brings together the displayed balance, monthly cash flow, quick
 actions, and navigation to key areas.
 
 #### Wallets and dashboard insights
 
-![Pastel Pockets wallets and dashboard insights](screenshot/dashboard_scroll_mid.jpg)
+<img src="screenshot/dashboard_scroll_mid.jpg" alt="Pastel Pockets wallets and dashboard insights" width="320">
 
 This dashboard view shows wallet cards, an AI insight, budget progress, and the
 start of recent activity.
 
 #### Budget progress and recent activity
 
-![Pastel Pockets dashboard activity](screenshot/dashboard_scroll_end.jpg)
+<img src="screenshot/dashboard_scroll_end.jpg" alt="Pastel Pockets dashboard activity" width="320">
 
 The lower dashboard view focuses on budget progress and a list of recent
 transactions.
@@ -125,21 +127,21 @@ transactions.
 
 #### Transactions
 
-![Pastel Pockets transactions](screenshot/trasaction.jpg)
+<img src="screenshot/trasaction.jpg" alt="Pastel Pockets transactions" width="320">
 
 Search, income/expense filters, category filters, and transaction entries are
 visible on this screen.
 
 #### Budgets
 
-![Pastel Pockets budgets](screenshot/budget_limit.jpg)
+<img src="screenshot/budget_limit.jpg" alt="Pastel Pockets budgets" width="320">
 
 Budget cards show category spending, progress against limits, and remaining
 amounts.
 
 #### Saving goals
 
-![Pastel Pockets saving goals](screenshot/saving_goals.jpg)
+<img src="screenshot/saving_goals.jpg" alt="Pastel Pockets saving goals" width="320">
 
 A saving goal card displays its target, progress, remaining amount, and an
 action to add savings.
@@ -148,14 +150,14 @@ action to add savings.
 
 #### Cash flow report
 
-![Pastel Pockets cash flow report](screenshot/reports.jpg)
+<img src="screenshot/reports.jpg" alt="Pastel Pockets cash flow report" width="320">
 
 The report summarizes net cash flow, income, expenses, and a period-based trend
 chart.
 
 #### Expense categories
 
-![Pastel Pockets expense categories](screenshot/reports_expense.jpg)
+<img src="screenshot/reports_expense.jpg" alt="Pastel Pockets expense categories" width="320">
 
 This scrolled report view shows the cash-flow trend alongside a category
 breakdown of expenses.
@@ -164,24 +166,52 @@ breakdown of expenses.
 
 #### AI financial insights
 
-![Pastel Pockets AI financial insights](screenshot/ai_insight.jpg)
+<img src="screenshot/ai_insight.jpg" alt="Pastel Pockets AI financial insights" width="320">
 
 The insights screen presents a forecast summary, selectable time horizons, and
 a projected-balance chart.
 
 #### Split Bill: items and charges
 
-![Pastel Pockets Split Bill items and charges](screenshot/split_bill_biaya.jpg)
+<img src="screenshot/split_bill_biaya.jpg" alt="Pastel Pockets Split Bill items and charges" width="320">
 
 This captured workflow preview shows receipt items, item entry controls, and
 tax and service-charge fields; Split Bill is not an available feature in this
 PROD demo.
 
+#### Split Bill: participants
+
+<img src="screenshot/split_bill_peserta.jpg" alt="Pastel Pockets Split Bill participants" width="320">
+
+The participant step lists the demo participants before assigning receipt
+items.
+
+#### Split Bill: item distribution
+
+<img src="screenshot/split_bill_hasil.jpg" alt="Pastel Pockets Split Bill item distribution" width="320">
+
+This result view shows receipt items assigned to participants and their
+calculated shares.
+
+#### Split Bill: distribution breakdown
+
+<img src="screenshot/split_bill_hasil_pembagian.jpg" alt="Pastel Pockets Split Bill distribution breakdown" width="320">
+
+The breakdown view shows a different item-to-participant assignment and the
+resulting totals.
+
+#### Split Bill: sharing
+
+<img src="screenshot/split_bill_bagikan_pesan.jpg" alt="Pastel Pockets Split Bill sharing" width="320">
+
+The sharing view shows prepared participant summaries with copy and share
+actions.
+
 ### Settings
 
 #### General settings
 
-![Pastel Pockets settings](screenshot/settings.jpg)
+<img src="screenshot/settings.jpg" alt="Pastel Pockets settings" width="320">
 
 Settings include appearance, biometric login, notifications, CSV import/export,
 language, and currency options.
@@ -190,12 +220,9 @@ language, and currency options.
 
 #### Smart Receipt OCR
 
-![Pastel Pockets Smart Receipt OCR coming soon](screenshot/scan_ocr_coming_soon.jpg)
+<img src="screenshot/scan_ocr_coming_soon.jpg" alt="Pastel Pockets Smart Receipt OCR coming soon" width="320">
 
 The screen presents receipt OCR as a coming-soon feature in this PROD demo.
-
-Screenshots showing unverified personal identifiers are intentionally not
-included.
 
 ## Technology
 
