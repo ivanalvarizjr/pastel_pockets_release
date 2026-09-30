@@ -1,4 +1,4 @@
-# 💰 Pastel Pockets
+# 💰 Pastel Pockets Mobile App
 
 ### 🤖 AI-Powered Personal Finance Consultant
 
